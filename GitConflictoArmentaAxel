@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        double subtotal = pedirDouble(scanner, "Subtotal: ");
+        double total = subtotal;
+
+        System.out.printf("Total a pagar: %.2f%n", total);
+    }
+
+    public static double pedirDouble(Scanner scanner, String mensaje) {
+        System.out.print(mensaje);
+        return scanner.nextDouble();
+    }
+}
+------------------------------------------------------------
+
+3. Inicializa Git y haz tu primer commit en main con este mensaje:
+   chore: base de calculadora
+
+------------------------------------------------------------
+PARTE 1 — RAMA 1: AGREGAR IVA (feature/iva)
+1. Crea una rama llamada:
+   feature/iva
+
+2. En esa rama, modifica el programa para:
+- Agregar una constante IVA = 0.16
+- Calcular: total = subtotal + (subtotal * IVA);
+
+3. Haz commit con el mensaje:
+   feat: agregar calculo de iva

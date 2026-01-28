@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Axel-Armenta.iml" filepath="$PROJECT_DIR$/.idea/Axel-Armenta.iml" />
       <module fileurl="file://$PROJECT_DIR$/ControlIfElseAxelArmenta/ControlIfElseAxelArmenta.iml" filepath="$PROJECT_DIR$/ControlIfElseAxelArmenta/ControlIfElseAxelArmenta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ControlSwitchAxelArmenta/ControlSwitchAxelArmenta.iml" filepath="$PROJECT_DIR$/ControlSwitchAxelArmenta/ControlSwitchAxelArmenta.iml" />
     </modules>
   </component>
 </project>
